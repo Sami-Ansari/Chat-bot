@@ -10,7 +10,7 @@ from langchain.schema import (
 openapi_key = st.secrets["OPENAI_API_KEY"]
 
 # Set streamlit page configuration
-st.set_page_config(page_title="Hope to Skill ChatBot")
+st.set_page_config(page_title="Sami ChatBot")
 st.title("AI Mentor")
 
 # Initialize session state variables
