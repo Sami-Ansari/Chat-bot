@@ -11,7 +11,7 @@ openapi_key = st.secrets["OPENAI_API_KEY"]
 
 # Set streamlit page configuration
 st.set_page_config(page_title="Sami ChatBot")
-st.title("AI Mentor")
+st.title("AI Mento")
 
 # Initialize session state variables
 if 'entered_prompt' not in st.session_state:
